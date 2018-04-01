@@ -1,0 +1,64 @@
+.header {
+  text-align: center;
+  font-size: .18rem;
+  padding: .2rem;
+}
+.header .header_left {
+  float: left;
+}
+.header .header_left img {
+  width: .2rem;
+}
+.text {
+  padding: 0.2rem;
+}
+.text .txt_title {
+  position: relative;
+  padding: .3rem 0;
+}
+.text .txt_title .txt_title_left,
+.text .txt_title .txt_title_right {
+  width: 0.18rem;
+  height: 0.24rem;
+  position: absolute;
+  top: .35rem;
+}
+.text .txt_title .txt_title_left {
+  left: 0;
+}
+.text .txt_title .txt_title_right {
+  right: 0;
+}
+.text .txt_title .txt_title_center {
+  text-align: center;
+}
+.text .txt_title .txt_title_center h2 {
+  font-size: 0.25rem;
+  font-family: PingFangSC-Regular;
+}
+.text .text_content {
+  font-size: .14rem;
+  font-family: 'PingFangSC-Regular';
+}
+.text .text_content .box {
+  margin-bottom: .25rem;
+}
+.text .button {
+  padding: .2rem;
+}
+.text .button a {
+  background: #FF4258;
+  font-size: .16rem;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: .11rem;
+  border-radius: 1rem;
+  margin-bottom: .2rem;
+}
+.text .button a img {
+  width: .18rem;
+  height: .18rem;
+  display: inline;
+  margin-right: .1rem;
+}

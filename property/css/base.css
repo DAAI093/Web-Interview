@@ -1,0 +1,59 @@
+/* 初始化 */
+
+@import "./media.css";
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+div,
+span,
+a,
+fieldset,
+legend,
+img {
+    margin: 0;
+    padding: 0;
+    /*清除元素的内外边距*/
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+    font-size: 0;
+}
+
+.sale {
+    padding: 0 .26rem .5rem;
+    background-color: #f7f4f1;
+}

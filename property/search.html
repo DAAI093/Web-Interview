@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <title>查询记录</title>
+    <!-- <link rel="stylesheet" href="./css/base.css"> -->
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/history.css">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./js/zepto.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <a class="header_left" href="javascript:history.back();">
+            <img src="./img/back_icon copy@2x.png" alt="">
+        </a>
+        查询记录
+    </div>
+    <div class="content">
+        <div class="portrait">
+            <img class="pic_h" src="./img/Oval@2x.png" alt=""> 13012345678
+        </div>
+        <div class="record">
+            <div class="title">记录明细</div>
+            <ul class="list">
+                <li>
+                    <div class="left">
+                        <p class="txt">充值返现</p>
+                        <p class="date">2018-01-01</p>
+                    </div>
+                    <div class="right green">+1000</div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p class="txt">物业充值</p>
+                        <p class="date">2018-01-01</p>
+                    </div>
+                    <div class="right red">-2400</div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p class="txt">10月至12月物业缴费</p>
+                        <p class="date">2018-01-01</p>
+                    </div>
+                    <div class="right red">-3000</div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p class="txt">9月份物业缴费</p>
+                        <p class="date">2018-01-01</p>
+                    </div>
+                    <div class="right red">-1000</div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p class="txt">8月份物业缴费</p>
+                        <p class="date">2018-01-01</p>
+                    </div>
+                    <div class="right red">-1000</div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p class="txt">8月份物业缴费</p>
+                        <p class="date">2018-01-01</p>
+                    </div>
+                    <div class="right red">-1000</div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p class="txt">8月份物业缴费</p>
+                        <p class="date">2018-01-01</p>
+                    </div>
+                    <div class="right red">-1000</div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p class="txt">8月份物业缴费</p>
+                        <p class="date">2018-01-01</p>
+                    </div>
+                    <div class="right red">-1000</div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p class="txt">8月份物业缴费</p>
+                        <p class="date">2018-01-01</p>
+                    </div>
+                    <div class="right red">-1000</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="./js/search.js"></script>
+<!-- <script>
+    $(function () {
+        // 这个信息从哪里来的？？
+        var rep = {
+            "head": {
+                "token": "OGI2Njg1NDVmZjI5NGE4MGEwN2EyNDIzNTA1MjIzMTg=",
+                "appAccount": "abd73a2657bd41cebde60c1b4bc3ada8",
+                "version": "1.0",
+                "deviceType": 1
+            },
+            "content": {}
+        }
+
+        var rep1 = {
+            "head": {
+                "token": "OGI2Njg1NDVmZjI5NGE4MGEwN2EyNDIzNTA1MjIzMTg=",
+                "appAccount": "abd73a2657bd41cebde60c1b4bc3ada8",
+                "version": "1.0",
+                "deviceType": 1
+            },
+            "content": {
+                "type": 1,
+                "page_num": 1,
+                "page_limit": 10,
+            }
+        }
+
+        var repjson = rep;
+
+        var reps = JSON.stringify(rep);
+        $.post("https://api.yanfenggx.com/app/user/get_user_info", reps, (res) => {
+            console.log(res)
+            $(".portrait").html() = `<img class="pic_h" src=` + res.data.head_pic + ` alt="">` + res.data
+                .signature
+        })
+        $.post("https://api.yanfenggx.com/app/rebate/get_itemized", reps, (res) => {
+            console.log(res)
+            $(".list").html() =
+                ` <li>
+                    <div class="left">
+                        <p class="txt">${res.data.remark}</p>
+                        <p class="date">${res.data.create_time}</p>
+                    </div>
+                    <div class="right green">${res.data.change_type ==1? "+" :"-"}${res.data.change_num}</div>
+                </li>`
+        })
+
+
+    })
+</script> -->
+
+</html>

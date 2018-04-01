@@ -1,0 +1,104 @@
+html,
+body {
+    height: 100%;
+    background-color: #ffa538;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    background: #fff; // width: 31.25rem;
+    width: 100%;
+    height: 3.67rem;
+    position: fixed;
+    text-align: center;
+    line-height: 3.67rem;
+    top: 0;
+    font-family: PingFangSC-Medium;
+    font-size: 18px;
+    color: #1C1C1C;
+    letter-spacing: 0; // text-align: left;
+    z-index: 1000;
+}
+
+.header_left {
+    /* position: absolute; */
+    // height: 1.68rem;
+    border-radius: 100px;
+    float: left;
+    /* float: left; */
+    padding: 0.3rem 1.35rem; 
+    // padding-top: .3rem;
+}
+
+.header_left img {
+    height: 1.68rem;
+}
+
+.content {
+    // margin-top: 3.67rem;
+    height: 100%;
+    background: url('../img/未标题-1@2x.png') center top no-repeat #ffa538;
+    .portrait {
+        height: 13.25rem;
+        position: relative;
+        font-size: 1.5rem;
+        color: #764D1C;
+        text-align: center;
+        line-height: 26rem;
+        img {
+            width: 5rem;
+            position: absolute;
+            left: 40%;
+            top: 50%;
+        }
+    }
+}
+
+.record {
+    margin: 3.08rem 1.67rem;
+    background: #fff;
+    border: 0.08rem solid #F6E8B7;
+    border-radius: 0.92rem; // width: 100%;
+    .title {
+        background: url('../img/Group@2x.png');
+        font-size: 1.5rem;
+        color: #96551C;
+        height: 3.67rem;
+        line-height: 3.67rem;
+        text-align: center;
+    }
+    ul {
+        padding: 1.67rem;
+        overflow: auto;
+        height: 29.58rem; // width: 100%;
+        li {
+            padding-top: 1.67rem;
+            height: 5.75rem;
+            border-bottom: 1px solid #F3F3F4;
+            .left {
+                float: left;
+                .txt {
+                    font-size: 1.17rem;
+                }
+                .date {
+                    font-size: 0.38rem;
+                    color: #6D6D6D;
+                    margin-top: 0.42rem;
+                }
+            }
+            .right {
+                float: right;
+                font-size: 1.67rem;
+            }
+            .green {
+                color: #8ECA70;
+            }
+            .red {
+                color: #F44D4E;
+            }
+        }
+    }
+}
