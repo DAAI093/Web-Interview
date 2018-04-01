@@ -1,0 +1,60 @@
+/* 标题部分的样式 */
+
+.headtitle {
+    height: 44px;
+    width: 298px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+}
+
+.main {
+    height: 145px;
+    width: 298px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+/* 输入框部分样式 */
+
+.bodytext {
+    height: 32px;
+    width: 230px;
+    border: 1px solid #cbcbcb;
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+/* 确定按键的样式 */
+
+.okbtn {
+    background-color: #0878d5;
+    color: white;
+    height: 31px;
+    width: 60px;
+    border: none;
+    float: right;
+}
+
+.cancelbtn {
+    background-color: #ddd;
+    color: black;
+    height: 31px;
+    width: 60px;
+    border: none;
+    float: right;
+    margin-left: 10px;
+}
+
+
+/* 模态框 */
+
+.box {
+    width: 298px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 1px 3px #aaa;
+}
