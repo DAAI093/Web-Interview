@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>文档标题</title>
+    <style>
+        .map{
+            /* 因为每一格式20*20,所以地图是20的倍数 */
+            width: 400px;
+            height: 200px;
+            background-color: #333;
+            position: relative;
+            margin:0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="map" id="map"></div>
+</body>
+</html>
+<script src="food.js"></script>
+<script src="snake.js"></script>
+<script src="game.js"></script>
+<script>
+
+    /* 1.获取地图 */
+    var map = document.getElementById('map');
+    /* 2.游戏对象实例化 */
+    var game = new Game(map);
+    /* 3.执行游戏开始 */
+    game.start();
+
+    
+
+
+
+
+</script>
