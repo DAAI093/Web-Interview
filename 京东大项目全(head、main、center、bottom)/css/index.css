@@ -1,0 +1,675 @@
+/*当前面有的css文件 */
+/* 头部广告部分开始 */
+.banner-top{
+	background: #ff9324;
+}
+.banner-top .iconfont{
+	font-family: "iconfont";
+	position: absolute;
+	right:5px;
+	top:5px;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background: rgba(0,0,0,.3);
+	color:rgba(255,255,255,.8);
+	font-size: 14px;
+	cursor:pointer;
+}
+/* 头部广告部分结束 */
+
+/* shortcut部分开始 */
+.shortcut{
+	height: 30px;
+	line-height: 30px;
+	background: #e3e4e5;
+	border-bottom: 1px solid #ddd;
+}
+.shortcut .shortcut-left{
+	float: left;
+	font-size: 12px;
+	margin-left: 210px;
+}
+.shortcut-left .iconfont{
+	font-family: "iconfont";
+	color:#f10215;
+	font-weight: 800;
+	/* font-size: 14px; */
+	vertical-align: middle;
+}
+.shortcut .shortcut-right{
+	float: right;
+}
+.shortcut-right ul li{
+	float: left;
+	color:#999;
+}
+.shortcut-right li a{
+	color:#999;
+}
+.shortcut-right li.line{
+	width: 1px;
+	height: 10px;
+	background: #ccc;
+	/* margin-top: 11px; */
+	margin: 11px 12px;
+}
+.shortcut-right li.pr{
+	margin-right: 14px;
+}
+.shortcut-right li .iconfont{
+	font-family: "iconfont";
+	position: absolute;
+	top:2px;
+	right:-18px;
+}
+/* shortcut部分结束 */
+
+/* 头部部分开始 */
+.header{
+	height: 140px;
+	/* background: pink; */
+}
+.header .logo{
+	width: 190px;
+	height: 170px;
+	background: #fff;
+	position: absolute;
+	top:-31px;
+}
+.header .logo a{
+	display: block;
+	width: 100%;
+	height: 170px;
+	background: url(../images/logo.v3.jpg) no-repeat;
+	text-indent: -999em;
+}
+
+.header .search{
+	width: 548px;
+	height: 33px;
+	border:1px solid #f10215;
+	position: absolute;
+	top:25px;
+	left:320px;
+}
+.search input[type="text"]{
+	height: 33px;
+	width: 498px;
+	float: left;
+	font-size: 14px;
+	text-indent: 0.5em;
+}
+.search input[type="button"]{
+	height: 33px;
+	width: 50px;
+	float: right;
+	background: #f10215;
+	cursor: pointer;
+}
+.search .iconfont{
+	font-family: "iconfont";
+	font-size: 16px;
+	font-weight: 800;
+	cursor: pointer;
+}
+.search i:nth-child(3){
+	position: absolute;
+	top:9px;
+	right:64px;
+}
+.search i:nth-child(3):hover{
+	color:#f10215;
+}
+.search i:nth-child(4){
+	position: absolute;
+	top:9px;
+	right:15px;
+	color:#fff;
+}
+.header .car{
+	width: 188px;
+	height: 33px;
+	border:1px solid #e3e4e5;
+	position: absolute;
+	right:172px;
+	top:25px;
+	background: #fff;
+	line-height: 33px;
+	text-align: center;
+	color:#f10215;
+}
+.car .iconfont{
+	font-family: "iconfont";
+	font-size: 16px;
+	vertical-align: middle;
+}
+.car span{
+	width: 14px;
+	height: 14px;
+	background: #f10215;
+	color:#fff;
+	position: absolute;
+	top:5px;
+	right:34px;
+	display: block;
+	line-height: 14px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.header .hotProduct{
+	position: absolute;
+	left:320px;
+	top:70px;
+}
+.hotProduct ul li{
+	float: left;
+	margin-right: 10px;
+}
+.hotProduct li:nth-child(8){
+	margin-right: 0;
+}
+.header .nav{
+	position: absolute;
+	left:310px;
+	bottom:0;
+}
+.header .nav li:first-child{
+	margin-left: 0;
+}
+.header .nav li{
+	float: left;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0 15px;
+}
+.nav li.line{
+	height: 10px;
+	width: 1px;
+	background: #ccc;
+	/* margin-top: 4px; */
+	margin: 4px 5px;
+}
+
+.header .adver{
+	position: absolute;
+	right:74px;
+	bottom:0;
+}
+/* 头部部分结束 */
+
+/* main广告部分开始 */
+.main-adver{
+	width: 100%;
+	height: 480px;
+	position: absolute;
+}
+.main-adver a{
+	display: block;
+	height: 480px;
+	background: url(../images/banner480.png) no-repeat center;
+}
+/* main广告部分结束 */
+
+/* main部分开始 */
+.main{
+	height: 480px;
+	/* background: pink; */
+	position: relative;
+}
+
+.main .main-left{
+	width: 190px;
+	height: 446px;
+	padding-top: 18px;
+	padding-bottom: 16px;
+	background: #6e6568;
+}
+.main-left li{
+	height: 28px;
+	font:14px/28px "microsoft yahei";
+	padding: 0 12px;
+	/* line-height: 28px; */
+	color:#fff;	
+}
+.main-left li a{
+	color:#fff ;
+}
+.main-left li:hover{
+	background: rgba(255,255,255,.3);
+}
+.main-left li a:hover {
+	color:#f10215;
+}
+
+.main .main-center{
+	width: 790px;
+	height: 480px;
+	margin: 0 10px;
+	/* background: red; */
+}
+.main .main-right{
+	width: 190px;
+	height: 480px;
+	background: #fff;
+}
+
+/* main中间部分开始 */
+.main-center .main-center-top{
+	height: 340px;
+	/* background: pink; */
+	margin-bottom: 10px;
+}
+.main-center-top ul{
+	width: 179px;
+	height: 20px;
+	background: rgba(255,255,255,.4);
+	position: absolute;
+	bottom:20px;
+	left:50%;
+	transform:translateX(-50%);
+	border-radius: 10px;
+	padding-left: 3px;
+}
+.main-center-top ul li{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #fff;
+	float: left;
+	margin: 4px 5px;
+}
+.main-center-top ul li:first-child{
+	background: #f10215;
+}
+.main-center-top span{
+	width: 30px;
+	height: 60px;
+	font-size: 20px;
+	color:#fff;
+	display: block;
+	background:rgba(0,0,0,.1);
+	line-height: 60px;
+	text-align: center;
+	position: absolute;
+	top:50%;
+	transform:translateY(-50%);
+	display: none;
+}
+.main-center-top:hover span{
+	display: block;
+}
+.main-center-top span:hover{
+	background: rgba(0,0,0,.5);
+	cursor: pointer;
+}
+.main-center-top span:nth-child(3){
+	right:0;
+}
+.main-center .main-center-bottom{
+	height: 130px;
+	/* background: blue; */
+}
+.main-center-bottom .center-bottom-left{
+	width: 390px;
+	height: 130px;
+	/* background: pink; */
+
+}
+.main-center-bottom .center-bottom-right{
+	width: 390px;
+	height: 130px;
+	/* background: red; */
+}
+
+
+/* main右边部分开始 */
+.main-right-top{
+	height: 85px;
+	border-bottom: 1px solid #ccc;
+	padding: 15px;
+}
+.main-right-top .right-top-info>a{
+	width: 40px;
+	height: 40px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+.right-top-info a img{
+	width: 40px;
+	border-radius: 50%;
+}
+.right-top-info p{
+	line-height: 22px;
+}
+.main-right .right-top-vip{
+	margin-top: 15px;
+}
+.right-top-vip a{
+	width: 70px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	border:2px solid #f10215;
+	display: inline-block;
+	color:#f10215;
+}
+.right-top-vip a:hover{
+	color:#fff;
+	background: #f10215;
+}
+
+
+
+.main-right .main-right-center{
+	height: 154px;
+	border-bottom:1px solid #ccc;
+	padding: 0 13px;
+}
+.main-right-center .chuxiao{
+	height: 26px;
+	line-height: 32px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 14px;
+}
+.chuxiao span{
+	display: inline-block;
+	height: 17px;
+	line-height: 17px;
+	cursor:pointer;
+}
+.chuxiao span:first-child{
+	border-right:1px solid #ccc;
+	padding-right: 12px;
+}
+.chuxiao span:nth-child(2){
+	padding-left: 12px;
+}
+.chuxiao a{
+	float: right;
+}
+.chuxiao span:nth-child(4){
+	width: 28px;
+	height: 2px;
+	background: #f10215;
+	position: absolute;
+	bottom: -1px;
+	left:0;
+}
+.main-right-center p{
+	height: 24px;
+	line-height: 24px;
+}
+
+/* main右边底部服务栏开始 */
+.main-right-bottom{
+	overflow: hidden;
+}
+.main-right-bottom ul{
+	width: 192px;
+	margin-left: -1px;
+}
+.main-right-bottom ul li{
+	float: left;
+	width: 47px;
+	height: 69px;
+	border:1px solid #ccc;
+	border-top:none;
+/* 	border-left: none; */
+	margin-right: -1px;
+}
+.main-right-bottom a{
+	width: 47px;
+	height: 69px;
+	line-height: 115px;
+	display: block;
+	text-align: center;
+	position: relative;
+}
+.main-right-bottom li span{
+	width: 17px;
+	height: 23px;
+	display: block;
+	background: url(../images/sprite_fs@1x.png) no-repeat -3px -2px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.main-right-bottom li:nth-child(2) span{
+	background-position: -48px -1px;
+}
+/* main部分结束 */
+
+
+/* 京东秒杀部分开始 */
+.seckill{
+	margin-top: 10px;
+}
+.seckill .seckill-top{
+	height: 55px;
+	line-height: 55px;
+	background: url(../images/seckill_hd.png) no-repeat;
+}
+.seckill-top .sjx{
+	width: 26px;
+	height: 26px;
+	display: block;
+	background: url(../images/sprite_index@1x.png) no-repeat right -49px;
+	position: absolute;
+	left:-1px;
+	top:-1px;
+}
+.seckill-top .clock{
+	width: 34px;
+	height: 40px;
+	display: block;
+	background: url(../images/sprite_index@1x.png) no-repeat 0 -40px;
+	position: absolute;
+	top:8px;
+	left:30px;
+}
+.seckill-top h2{
+	font-size: 22px;
+	color:#fff;
+	margin-left: 72px;
+	position: absolute;
+}
+.seckill-top a{
+	line-height: 0;
+	position: absolute;
+	top:26px;
+	left:188px;
+	color:#fff;
+}
+.seckill-top .jiant{
+	width: 16px;
+	height: 16px;
+	display: block;
+	background: url(../images/sprite_index@1x.png) no-repeat -154px -40px;
+	position: absolute;
+	right:-22px;
+	top:-8px;
+}
+.seckill-top .qianggou{
+	float: right;
+	margin-right: 21px;
+}
+.qianggou span{
+	color:#fff;
+}
+
+.seckill .seckill-bottom {
+	padding: 12px 0;
+	background: #fff;
+}
+.seckill-bottom ul li{
+	width: 169px;
+	height: 210px;
+	/* background: pink; */
+	float: left;
+	border-right:1px solid #ccc;
+	text-align: center;
+	padding-top: 16px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.seckill-bottom li:last-child{
+	border-right:none;
+}
+.seckill-bottom .seckill-info{
+	margin-top: 18px;
+}
+.seckill-bottom .seckill-info p{
+	text-align: left;
+	color:#999;
+}
+.seckill-info p:last-child{
+	margin-top: 13px;
+}
+.seckill-info p a{
+	color:#999;
+}
+.seckill-info p a:hover{
+	color:#f10215;
+}
+.seckill-info p span{
+	font-size: 16px;
+	color:#f10215;
+}
+.seckill-info p span i{
+	font-size: 12px;
+}
+.seckill-info p span:last-child{
+	font-size: 12px;
+	color:#999;
+}
+.seckill-bottom .remmed{
+	width: 180px;
+	height: 225px;
+	/* background: pink; */
+	position: absolute;
+	right: 10px;
+	top:12px;
+}
+/* 京东秒杀部分结束*/
+
+
+
+/* 底部部分开始 */
+footer{
+	background: #eaeaea;
+}
+
+
+/* 底部的多快好省部分开始 */
+footer .footer-top{
+	/* padding-left: 116px; */
+	border-bottom: 1px solid #dedede;
+	padding: 30px 116px;  /* 通过padding调节盒子上下左右的距离 */
+}
+footer .footer-top li{
+	float: left;
+	width: 25%;
+}
+.footer-top li h3,.footer-top li span{
+	float: left;
+}
+.footer-top li h3{
+	width: 36px;
+	height: 42px;
+	background: url(../images/ico_service.png) no-repeat;
+	text-indent: -999em;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.footer-top li span{
+	font: 800 18px "microsoft yahei";
+	color:#000;
+	margin-top: 8px;
+}
+.footer-top li:nth-child(2) h3{
+	background: url(../images/ico_service.png) no-repeat 0 -42px;
+}
+
+/* 底部中间部分开始 */
+footer .footer-center{
+	padding:26px 0px;
+}
+footer .footer-center dl{
+	float: left;
+	width: 198px;
+}
+.footer-center dl dt{
+	margin-bottom: 9px;
+	font-size: 12px;
+	font-weight: 600;
+}
+.footer-center dl dd{
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+}
+.footer-center .map{
+	width: 198px;
+	height: 146px;
+	position: absolute;
+	right: 0;
+	background: url(../images/ico_footer.png) no-repeat;
+}
+.map h3{
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 24px;
+}
+.map p{
+	line-height: 18px;
+}
+.map p:nth-child(3){
+	text-align: right;
+}
+
+/* 底部的版权信息开始 */
+footer .footer-bottom{
+	padding-top: 18px;
+	padding-bottom: 129px;
+	border-top: 1px solid #e1e1e1;
+}
+footer .footer-bottom  ul{
+	padding-left: 24px;
+	margin-bottom: 16px;
+}
+footer .footer-bottom li{
+	float: left;
+}
+.footer-bottom	.listNav a{
+	margin: 0 12px;
+}
+.footer-bottom p {
+	text-align: center;
+	line-height: 24px;
+}
+.footer-bottom .beian{
+	width: 648px;
+	margin: 14px auto;
+}
+/* .footer-bottom .beian li{
+	width: 103px;
+	height: 32px;
+	/* background: pink;
+}  因为a标签转成块级元素，能把li标签的宽高撑出来 */ 
+.beian li a{
+	display: block;
+	width: 103px;
+	height: 32px;
+	background: url(../images/ico_footer.png) no-repeat 0 -151px;
+}
+.beian li:nth-child(2) a{
+	background: url(../images/ico_footer.png) no-repeat -104px -151px;
+}
+/* 底部部分结束 */
+
