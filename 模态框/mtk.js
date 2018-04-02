@@ -16,11 +16,11 @@ Toast.prototype.show = function () {
     for (var i = 0; i < this.showEventListeners.length; i++) {
         this.showEventListeners[i](this);
     }
-    // var box = document.createElement("div");
+    
     var box = $('<div>')
     this.num[this.num.length] = box;
     box.addClass("box");
-    box.attr('id',this.num.length); //id添加成功
+    box.attr('id',"a"+this.num.length); //id添加成功
 
     // 添加title部分
     var head = $('<div>')
@@ -43,7 +43,10 @@ Toast.prototype.show = function () {
     okbtn.text(this.okText);
     okbtn.on('click', function () {
         // 通过传入id选择关闭对应的哪一个框
-        that.close($('.box').id);
+
+        // that.close(this);
+        that.close($(this).parent().parent()[0].id);
+        // console.log($(this).parent().parent()[0].id)
     })
 
     // 添加取消选框
@@ -64,9 +67,10 @@ Toast.prototype.show = function () {
 }
 
 Toast.prototype.close = function (id) {
-    // var box = document.getElementById(id);
-    var box = $('.box').id;
-    $(document.body).remove(box);
+
+    // $(id).parent().parent().remove();
+    
+    $("#" + id).remove()
     // 下边是激活onclose事件
     for (var i = 0; i < this.closeEventListeners.length; i++) {
         this.closeEventListeners[i](this);
